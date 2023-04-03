@@ -83,15 +83,16 @@
 							</tr>
 							<tr>
 							<th scope="row"><?php echo $view['lang']['about_053'] ?></th>
-							<td>Token - Solana</td>
+							<td>Token - ERC20</td>
 							</tr>
 							<tr>
 							<th scope="row"><?php echo $view['lang']['about_054'] ?></th>
-							<td>ADW3k4i1owPBVgYXJBxMnqYqBUbKTe2ydbTkCqKkQwEx</td>
+							<td>0x19EB667fCb458E7321C1EB1C1bf687d9DBd17ff7
+								</td>
 							</tr>
 							<tr>
-							<th scope="row">SOL Scan <?php echo $view['lang']['about_055'] ?></th>
-							<td><a target="_blank" href ='https://solscan.io/token/ADW3k4i1owPBVgYXJBxMnqYqBUbKTe2ydbTkCqKkQwEx'> https://solscan.io/token/ADW3k4i1owPBVgYXJBxMnqYqBUbKTe2ydbTkCqKkQwEx </a></td>
+							<th scope="row">EtherScan <?php echo $view['lang']['about_055'] ?></th>
+							<td><a target="_blank" href ='https://etherscan.io/token/0x19EB667fCb458E7321C1EB1C1bf687d9DBd17ff7'>https://etherscan.io/token/0x19EB667fCb458E7321C1EB1C1bf687d9DBd17ff7 </a></td>
 							</tr>
 							<tr>
 							<th scope="row"><?php echo $view['lang']['about_056'] ?></th>
