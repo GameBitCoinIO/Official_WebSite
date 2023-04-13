@@ -216,6 +216,8 @@
 						<li><a target='_blank' href="https://t.me/GameBit_News"><i class="icon-chat"></i></a></li>
 						<li><a target='_blank' href="https://t.me/GameBit_News"><i class="icon-youtube-play"></i></a></li>
 						<li><a target='_blank' href="https://www.instagram.com/gamebit_info/"><i class="ti-instagram"></i></a></li>
+						<li><a target='_blank' href="https://medium.com/@gamebitcoin_info"><img style='filter:invert(100%);opacity:0.7;color:#fff' width="30" src="/../assets/css/icon_fonts/brands/medium.svg" /></a></li>
+						<li><a target='_blank' href="https://discord.com/invite/MJXptRwYNR"><img style='filter:invert(100%);opacity:0.7;color:#fff' width="30" src="/../assets/css/icon_fonts/brands/discord.svg" /></a></li>
 					</ul>
 				</div>
 			</div>
