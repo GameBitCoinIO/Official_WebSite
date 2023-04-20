@@ -33,4 +33,5 @@ $lang['main_029'] = "준비중….";
 $lang['main_030'] = "Polis 가입";
 $lang['main_031'] = "회원가입";
 $lang['main_032'] = "Records";
+$lang['main_033'] = "메타 게임존 바로가기";
 

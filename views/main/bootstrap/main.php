@@ -6,8 +6,14 @@
 			<div id="hero_video">
 				<div>
 					<h3><?php echo $view['lang']['main_001'] ?></h3>
-					<p><strong><?php echo $view['lang']['main_002'] ?>
-</p>
+					<p>
+						<strong><?php echo $view['lang']['main_002'] ?>
+					</p>
+					<p>
+						<a target="_blank" href="http://metazone.gamebitcoin.io/" style="margin-top:40px;font-size:14px;"class='btn_1 rounded'>
+							<?php echo $view['lang']['main_033'] ?>
+						</a>
+					</p>
 				</div>
 				<a href="#first_section" class="btn_explore hidden_tablet"><i class="ti-arrow-down"></i></a>
 			</div>

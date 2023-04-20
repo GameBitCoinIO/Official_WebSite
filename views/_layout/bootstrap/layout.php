@@ -65,7 +65,16 @@
 	<script type="text/javascript" src="<?php echo base_url('assets/js/sideview.js'); ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/js.cookie.js'); ?>"></script>
 
-	
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JS81D4Q25K">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JS81D4Q25K');
+</script>	
 </head>
 
 <header class="header menu_2">
@@ -270,7 +279,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4">
-				<div id="copy">© 2022 Game BitCoin LLC.</div>
+				<div id="copy"><?php echo $view['lang_tail']['tail_013'] ?></div>
 			</div>
 		</div>
 	</div>

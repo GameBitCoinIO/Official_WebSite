@@ -33,3 +33,4 @@ $lang['main_029'] = "Preparing…";
 $lang['main_030'] = "Join Polis";
 $lang['main_031'] = "Sign up Now";
 $lang['main_032'] = "Records";
+$lang['main_033'] = "Go to the Meta Game Zone";

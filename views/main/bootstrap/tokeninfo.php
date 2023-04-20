@@ -17,7 +17,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
-					<a class="box_feat h200" href="#">
+					<a class="box_feat h200" target="_blank" href="https://global.bittrex.com/trade/gbit-usdt">
 						<img src="/../assets/img/tokeninfo_bittrex.png" class="img-fluid" alt="">
 						<h3>Bittrex Global</h3>
 					</a>
@@ -104,12 +104,45 @@
 				</div>
 			</div>
 		</div>
+		<div class="bg_color_1">
+			<div class="row" style="margin-top : 10px;">
+				<div class="col-lg-12 col-md-12">
+					<table class="table" style="word-wrap : break-word">
+						<tbody>
+							<tr>
+							<th scope="row"><?php echo $view['lang']['about_053'] ?></th>
+							<td>Token - Solana</td>
+							</tr>
+							<tr>
+							<th scope="row"><?php echo $view['lang']['about_054'] ?></th>
+							<td> ADW3k4i1owPBVgYXJBxMnqYqBUbKTe2ydbTkCqKkQwEx
+								</td>
+							</tr>
+							<tr>
+							<th scope="row">SolScan <?php echo $view['lang']['about_055'] ?></th>
+							<td><a target="_blank" href ='https://solscan.io/token/ADW3k4i1owPBVgYXJBxMnqYqBUbKTe2ydbTkCqKkQwEx#holders'>https://solscan.io/token/ADW3k4i1owPBVgYXJBxMnqYqBUbKTe2ydbTkCqKkQwEx#holders </a></td>
+							</tr>
+							<tr>
+							<th scope="row"><?php echo $view['lang']['about_056'] ?></th>
+							<td>5,000,000,000 GBIT</td>
+							</tr>
+						</tbody>
+					</table>
+					
+				</div>
+			</div>
+		</div>
 		<!--/bg_color_1-->
 			<div class="row">
 				<div class="col-lg-12">
 					<div style="text-align:center;">
 					<br /><br />
-						<button style="padding : 30px;" class='btn btn-primary'> <a style="text-decoration : none;color : white;" href="/page/buytoken"> <?php echo $view['lang']['about_049'] ?></a></button>
+						<button style="padding : 30px;" class='btn btn-primary'> 
+							<a style="text-decoration : none;color : white;" href="/page/buytoken"> 
+								<img style='filter:invert(100%);color:#fff' width="25" src="/../assets/css/icon_fonts/brands/right-left-solid.svg" />
+								<?php echo $view['lang']['about_049'] ?>
+							</a>
+						</button>
 					</div>
 				</div>
 			</div>
