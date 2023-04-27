@@ -68,7 +68,9 @@
 					<h4>Cake Invader</h4>
 					<p><?php echo $view['lang']['game_003'] ?>
 						<br />
-					<a href='http://cakeinvader.gamebitcoin.io' target="_blank" class='btn btn-primary'><?php echo $view['lang']['game_007'] ?></a>
+					<a href='https://play.google.com/store/apps/details?id=com.feelinglucky.CakeInvader' target="_blank" class='btn btn-primary'>
+						<?php echo $view['lang']['game_008'] ?>
+					</a>
 
 					</p>
 					
@@ -89,7 +91,9 @@
 					<h4>Pink Do</h4>
                     <p><?php echo $view['lang']['game_005'] ?>
 					<br />
-						<a href='http://moles.gamebitcoin.io/' target="_blank" class='btn btn-primary'><?php echo $view['lang']['game_007'] ?></a>
+						<a href='https://play.google.com/store/apps/details?id=com.feelinglucky.CatchCatchMoles' target="_blank" class='btn btn-primary'>
+							<?php echo $view['lang']['game_008'] ?>
+						</a>
 					</p>
               </div>
             </div>
