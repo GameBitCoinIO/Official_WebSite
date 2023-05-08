@@ -9,4 +9,5 @@ $lang['game_005'] = "PinkDo is a digitally retouched version of the previous arc
 $lang['game_006'] = "Touch of Death is <strong>dynamic action mobile game</strong> that GameBit is currently developing. Designed as silhouette type with black and white background.<br>Launch expected  : December, 2022 ";
 $lang['game_007'] = "Go To Trial";
 $lang['game_008'] = "Go To PlayStore";
+$lang['game_009'] = "Download the Metamask Login Game";
 

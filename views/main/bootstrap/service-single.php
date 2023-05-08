@@ -71,7 +71,9 @@
 					<a href='https://play.google.com/store/apps/details?id=com.feelinglucky.CakeInvader' target="_blank" class='btn btn-primary'>
 						<?php echo $view['lang']['game_008'] ?>
 					</a>
-
+					<a href='https://drive.google.com/file/d/1yZJEdmcPTOS3SRwcCVov5Ztu1Y45Nple/view?usp=share_link' target="_blank" class='btn btn-primary'>
+						<?php echo $view['lang']['game_009'] ?>
+					</a>
 					</p>
 					
 				</div>
