@@ -1,3 +1,14 @@
+
+<style>
+	.h200
+	{
+		height : 200px;
+	}
+	.w30 {
+		width : 20%;
+	}
+</style>
+
 		<div class="container margin_default">
 			<div class="main_title_2">
 				<span><em></em></span>
@@ -147,10 +158,10 @@
 			</div>
 			<div id="carouse2" class="carousel owl-carousel owl-theme">
 				<div class="item">
-					<a target="_blank" href="https://www.linkedin.com/in/kyungduk-kim-7b2ba8246">
+					<a target="_blank" href="#">
 						<div class="title">
-							<h4><? echo $view['lang']['about_040']?><em><? echo $view['lang']['about_041']?></em></h4>
-						</div><img src="/../assets/img/advisors/1. Kim Kyoung Duk.jpg" alt="">
+							<h4><? echo $view['lang']['about_057']?><em><? echo $view['lang']['about_059']?></em></h4>
+						</div><img src="/../assets/img/advisors/Kim Hyung joo.jpg" alt="">
 					</a>
 				</div>
 				<div class="item">
@@ -176,5 +187,48 @@
 				</div>
 			</div>
 			<!-- /carousel -->
+		</div>
+
+		<div class="container margin_default">
+			<div class="main_title_2">
+				<span><em></em></span>
+				<h2><? echo $view['lang']['about_058']?></h2>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200" target="_blank" href="http://www.konca.or.kr/main/index.html">
+						<img src="/../assets/img/partners/1.png" class="img-fluid" alt="">
+						<h3>Korea NFT Contents Association</h3>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200" target="_blank" href="https://www.kblockchain.org/en/">
+						<img src="/../assets/img/partners/2.png" class="img-fluid" alt="">
+						<h3>Korea Blockchain Industry Association</h3>
+						<p></p>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200" target="_blank" href="https://grouplee.co.kr/">
+						<img src="/../assets/img/partners/3.png" class="img-fluid" alt="">
+						<h3>GroupLee</h3>
+						<p></p>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200" target="_blank" href="http://geoepic.io/">
+						<img src="/../assets/img/partners/4.png" class="img-fluid" alt="">
+						<h3>Geoepic</h3>
+						<p></p>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200" target="_blank" href="https://www.indendkorea.com/">
+						<img src="/../assets/img/partners/5.png" class="img-fluid" alt="">
+						<h3>Indendkorea</h3>
+						<p></p>
+					</a>
+				</div>
 		</div>
 		<!--/container-->

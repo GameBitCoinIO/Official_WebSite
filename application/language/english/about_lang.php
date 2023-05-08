@@ -58,5 +58,8 @@ $lang['about_053'] = "Coin Network";
 $lang['about_054'] = "Token Address";
 $lang['about_055'] = "Infomation";
 $lang['about_056'] = "Total Issuance";
+$lang['about_057'] = "Kim, Hyung joo";
+$lang['about_058'] = "Partners";
+$lang['about_059'] = "Chairman at KBIPA";
 
 

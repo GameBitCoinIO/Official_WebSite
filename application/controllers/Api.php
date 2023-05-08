@@ -45,7 +45,7 @@ class Api extends CB_Controller
 		echo $result_data->result;
 	}
 
-	public function circulating_supply()
+	public function circulating_supply($symbol)
 	{
 		$url = "https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x19EB667fCb458E7321C1EB1C1bf687d9DBd17ff7&apikey=QVHKDTMMKYXI9KB61U3HFMKGCFM2F42JKS";
 		
@@ -61,10 +61,18 @@ class Api extends CB_Controller
 		curl_close($ch);
 		$result_data = json_decode($response);
 
-		echo $result_data->result;
+		//echo $result_data->result;
+
+		if ($symbol == 'eth') {
+			echo '0';
+		}
+		else {
+			echo '40002';
+		}
+
 	}
 
-	public function total_supply()
+	public function total_supply($symbol)
 	{
 		$url = "https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x19EB667fCb458E7321C1EB1C1bf687d9DBd17ff7&apikey=QVHKDTMMKYXI9KB61U3HFMKGCFM2F42JKS";
 		
@@ -80,7 +88,12 @@ class Api extends CB_Controller
 		curl_close($ch);
 		$result_data = json_decode($response);
 
-		echo $result_data->result;
+		if ($symbol == 'eth') {
+			echo '5000000000';
+		}
+		else {
+			echo '5000000000';
+		}
 	}
 
 }
