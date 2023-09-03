@@ -336,6 +336,35 @@
 				<!-- /item -->
 			</div>
 			<!-- /carousel -->
+
+			<div id="popup">
+				<div>
+					<h2 class="title"> 대표이사 공지  
+						<label for="layer_popup" onclick="close_popup()">X</label>  
+					</h2>
+					<p>안녕하세요 게임비트코인 재단 대표 김형민 입니다</p>
+
+					<p>더운 여름도 이젠 서서히 물러가는 8월 말이 되었습니다. </p>
+
+					<p>올 상반기에는 여러가지 많은 사건 사고가 있었지만, 저희는 굳건하게 게임 개발과 국내상장에 집중해 왔습니다.</p>
+
+					<p>그러한 노력 덕분인지 저희는 많은 분들의 도움으로 게임비트코인 의 브랜드 이미지와 위상은 나날이 상승 하고 있습니다.</p>
+
+					<p>물론, 호사다마 처럼 상승한 이미지 만큼이나 음해하려는 사람들이나 저희 이미지를 이용해서 자신들의 이익을 취하려는 사람들도 생겨났습니다.</p>
+
+					<p>그러나, 저희는 사업의 전 분야를 법무법인과 사전조율하여, 불법적인 요소를 멀리하고, 부족한 부분을 미리 미리 점검해서 보강 하고 있기 때문에</p>
+
+					<p>우려하실만한 일들은 일어나지 않고 있습니다. 또한 그러한 음해세력에는 신속하고 단호하게 대응하고 있습니다.</p>
+
+					<p>좋은 소식이 결실을 맺는 계절이 다가오는 만큼, 혹시나 모를 일에 더 더욱 신중에 신중을 기해서 불미스러운 일이 생기지 않도록 세심하게 살펴 보겠습니다.</p>
+
+					<p>하반기에는 투자자 여러분들이 기다리시는 좋은 소식을 가지고 찾아 뵙겠습니다.</p>
+
+					<p>댁내 모두 평안하시길 빕니다. </p>
+					<button class="btn_today_close"><span>오늘 하루 보지 않기</span></button>
+				</div>
+			</div>
+
 		</div>
 		<!-- /container -->
 
@@ -350,7 +379,58 @@
 			videoTrigger: $("#video-trigger"),
 			autoPlayVideo: true
 		});
+		function close_popup() {
+			$('#popup').hide();
+		}
+
+		var toggleMainPopup = function() {
 		
+		/* 스토리지 제어 함수 정의 */
+		var handleStorage = {
+			// 스토리지에 데이터 쓰기(이름, 만료일)
+			setStorage: function (name, exp) {
+			// 만료 시간 구하기(exp를 ms단위로 변경)
+			var date = new Date();
+			date = date.setTime(date.getTime() + exp * 24 * 60 * 60 * 1000);
+
+			// 로컬 스토리지에 저장하기
+			// (값을 따로 저장하지 않고 만료 시간을 저장)
+			localStorage.setItem(name, date)
+			},
+			// 스토리지 읽어오기
+			getStorage: function (name) {
+			var now = new Date();
+			now = now.setTime(now.getTime());
+			// 현재 시각과 스토리지에 저장된 시각을 각각 비교하여
+			// 시간이 남아 있으면 true, 아니면 false 리턴
+			return parseInt(localStorage.getItem(name)) > now
+			}
+		};
+		
+		
+		// 쿠키 읽고 화면 보이게
+		if (handleStorage.getStorage("today")) {
+		} else {
+			$('#popup').show();
+		}
+
+		// 오늘하루 보지 않기 버튼
+		$("#popup").on("click", ".btn_today_close", function () {
+			// 로컬 스토리지에 today라는 이름으로 1일(24시간 뒤) 동안 보이지 않게
+			handleStorage.setStorage("today", 1);
+			$('#popup').hide();
+		});
+
+		// 일반 닫기 버튼
+		$(".main_popup").on("click", ".btn_close", function () {
+			$(this).parents(".main_popup.on").removeClass("on");
+		});
+		}
+
+		$(function() {
+		
+		});
+
 	</script>
 
 

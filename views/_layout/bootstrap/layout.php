@@ -25,7 +25,7 @@
 
     <!-- BASE CSS -->
     <link href="/../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/../assets/css/style.css?ver=2022081101" rel="stylesheet">
+    <link href="/../assets/css/style.css?ver=2023082502" rel="stylesheet">
 	<link href="/../assets/css/vendors.css" rel="stylesheet">
 	<link href="/../assets/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
 
