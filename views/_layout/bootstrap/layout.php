@@ -5,11 +5,11 @@
    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="블록체인 기반의 메타버스,gamebit,gamebitcoin,cakeinvader,게임비트코인,케이크인베이더">
+    <meta name="description" content="게임비트코인,필링럭키,gamebit,gamebitcoin">
     <meta name="author" content="SangJ">
 	<meta property="og:type" content="website"> 
-	<meta property="og:title" content="블록체인 기반 메타버스 게임 플랫폼">
-	<meta property="og:description" content="블록체인 기반의 메타버스,gamebit,gamebitcoin,cakeinvader,게임비트코인,케이크인베이더">
+	<meta property="og:title" content="게임비트코인">
+	<meta property="og:description" content="게임비트코인,필링럭키,gamebit,gamebitcoin">
 	<meta property="og:image" content="http://gamebitcoin.io/assets/img/Symbol-GB_Green.png">
 	<meta property="og:url" content="http://gamebitcoin.io/">
 
