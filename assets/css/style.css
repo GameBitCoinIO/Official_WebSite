@@ -3874,3 +3874,47 @@ ul.bullets li:before {
     transform: translate3d(0, -40%, 0);
   }
 }
+
+
+
+#popup
+{
+  position: fixed;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 800px;
+  height: 650px;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.2); /*x y 번짐 색상*/
+  z-index : 9999;
+  display : none;
+  
+}
+#popup .title {
+  text-align: center;
+}
+
+#popup  label {
+  display: inline-block;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+}
+
+#popup  h2{
+  margin-bottom: 25px;
+}
+
+#popup  h2 label{
+  float: right;
+}
+
+#popup .btn_today_close {
+  float : right;
+  margin-top : -50px;
+
+}
