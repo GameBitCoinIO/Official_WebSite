@@ -3,8 +3,16 @@
 			{
 				height : 200px;
 			}
+			.h200 img
+			{
+				width : 210px;
+				height : auto;
+			}
 			.w30 {
 				width : 20%;
+			}
+			.h200 h3 {
+				margin : 0 auto;
 			}
 		</style>
 		<div class="container margin_default">
@@ -23,10 +31,9 @@
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<a class="box_feat h200" href="#">
-						<i class="pe-7s-science"></i>
-						<h3>Coming Soon</h3>
-						<p></p>
+					<a class="box_feat h200" target="_blank" href="https://www.bitforex.com/en/spot/btc_usdt">
+						<img   style="margin-top : 10px;" src="/../assets/img/tokeninfo_bitforex.svg" class="img-fluid" alt="">
+						<h3>Bitforex</h3>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">

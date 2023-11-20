@@ -218,7 +218,7 @@
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat h200" target="_blank" href="http://geoepic.io/">
-						<img src="/../assets/img/partners/4.png" class="img-fluid" alt="">
+						<img src="/../assets/img/partners/4.jpg" class="img-fluid" alt="">
 						<h3>Geoepic</h3>
 						<p></p>
 					</a>
@@ -227,6 +227,20 @@
 					<a class="box_feat h200" target="_blank" href="https://www.indendkorea.com/">
 						<img src="/../assets/img/partners/5.png" class="img-fluid" alt="">
 						<h3>Indendkorea</h3>
+						<p></p>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200" target="_blank" href="https://www.indendkorea.com/">
+					<img src="/../assets/img/tokeninfo_bittrex.png" class="img-fluid" alt="">
+						<h3>Bittrex Global</h3>
+						<p></p>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200" target="_blank" href="https://www.indendkorea.com/">
+						<img src="/../assets/img/tokeninfo_bitforex.svg" class="img-fluid" alt="">
+						<h3>Bitforex</h3>
 						<p></p>
 					</a>
 				</div>

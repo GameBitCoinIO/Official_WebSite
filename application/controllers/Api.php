@@ -47,7 +47,7 @@ class Api extends CB_Controller
 
 	public function circulating_supply($symbol)
 	{
-		$url = "https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x19EB667fCb458E7321C1EB1C1bf687d9DBd17ff7&apikey=QVHKDTMMKYXI9KB61U3HFMKGCFM2F42JKS";
+		$url = "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x19EB667fCb458E7321C1EB1C1bf687d9DBd17ff7&address=0x404Cfe9b418d40484dc2f71fbd4A9109CEF9C2B1&tag=latest&apikey=QVHKDTMMKYXI9KB61U3HFMKGCFM2F42JKS";
 		
 		//https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x19EB667fCb458E7321C1EB1C1bf687d9DBd17ff7&apikey=QVHKDTMMKYXI9KB61U3HFMKGCFM2F42JKS
 
@@ -60,11 +60,10 @@ class Api extends CB_Controller
 		$response = curl_exec($ch);
 		curl_close($ch);
 		$result_data = json_decode($response);
-
-		//echo $result_data->result;
-
-		if ($symbol == 'eth') {
-			echo '0';
+		$total_balance = 5000000000 - ($result_data->result / 1000000000000000000);
+		
+		if ($symbol === 'eth') {
+			echo number_format($total_balance);
 		}
 		else {
 			echo '40002';
