@@ -339,7 +339,7 @@
 			
 			<div id="popup">
 				<div class="popup-container" >
-					<h3 class="title"> Bitforex 신규 상장과 관련하여 Gbit 투자자 님들께 드리는 말씀
+					<h3 class="title"> Bitforex Global 소식
 						<label for="layer_popup" id="close" onclick="close_popup()">X</label>  
 					</h3>
 					<!--
@@ -362,7 +362,7 @@
 					<p>하반기에는 투자자 여러분들이 기다리시는 좋은 소식을 가지고 찾아 뵙겠습니다.</p>
 
 					<p>댁내 모두 평안하시길 빕니다. </p>
--->
+
 
 
 						<p>안녕하세요. 게임비트코인 LLC 의 대표 김형민 입니다. 
@@ -395,14 +395,28 @@
 						<p>단기적으로 보다는 장기적으로 저희들을 지켜봐 주시길 부탁 드립니다. </p>
 
 						<p>감사합니다. </p>
+-->
+						<p>안녕하세요 게임비트코인 재단 입니다.</p>
+						<p>오늘은 아쉬운 소식을 전하게 되었습니다.</p>
+						저희 재단이 상장되어 있는 BITTREX GLOBAL 이 미국 규제당국(SEC)의 지속적인 압박에 결국
+						오는 12월 4일 거래소 폐쇄를 결정했다는 소식입니다.</p>
+
+						<p>그나마 다행스러운 것은, 저희는 솔라나 기반의 GBIT코인을 BITTREX에서 거래해 왔고, 지난번에 말씀 드린대로 이더리움기반 GBIT으로 교환을 요청한 상태입니다. 그동안 기술자 미팅이 거래소측의 요청으로 수 차에 걸쳐 연기되다가 , 이런 결정이 나왔기 때문에, 재단의 이더리움 기반 GBIT코인은 BITTREX거래소를 통해서 유통 된 바가 없습니다. 
+						오히려 솔라나에서 이더리움 기반으로 변경 하기 위해서, 자산을 회수 중이었고, 현재는 거의 대부분의 자산이 다 회수 된 상태 였기에 , 저희 재단의 피해도 크지 않을 전망 입니다.
+						12월 4일까지 마지막 자산까지 꼼꼼히 챙겨서 혹시 모를 피해에 대비해 나갈 계획입니다.</p>
+
+						<p>아울러, 다른 거래소 상장도 곧 이루어 질것으로 전망합니다.
+						저희 재단은 게임플랫폼 사용자들이 코인 사용을 용이 하게 하기위해 글로벌 한 거래소에 최대한 많이 상장이 되도록 작업을 지속적으로 해오고 있었기 때문에, BITTREX을 대체할 추가 거래소 상장은 빠르게 이루어 질것입니다. </p>
+
+						<p>이번 BITTREX 거래소 사태가 안타까운 소식이긴 하나, 재단의 진행상황엔 크게 영향을 없을 것 으로 판단되며, 블록체인 산업 전체에도 추가적인 악 영향이 없길 희망합니다.</p>
+
+						<p>BITTREX GLOBAL 기사 링크 : <a target="_blank" href='https://www.cryptopolitan.com/bittrex-global-announces-imminent-shutdown/' >기사 링크</a></p>
 					<button class="btn_today_close"><span>오늘 하루 보지 않기</span></button>
 				</div>
 			</div>
 
 		</div>
 		<!-- /container -->
-
-	
 	
 	<!-- SPECIFIC SCRIPTS -->
 	<script src="/../assets/js/video_header.js"></script>
@@ -415,6 +429,13 @@
 		});
 		function close_popup() {
 			$('#popup').hide();
+			$('body').css("pointer-events","auto");
+		}
+
+		function show_popup() {
+			$('#popup').show();
+			$('body').css("pointer-events","none");
+			$('#popup').css("pointer-events","auto");
 		}
 
 		var toggleMainPopup = function() {
@@ -445,14 +466,14 @@
 		// 쿠키 읽고 화면 보이게
 		if (handleStorage.getStorage("today")) {
 		} else {
-			$('#popup').show();
+			show_popup();
 		}
 
 		// 오늘하루 보지 않기 버튼
 		$("#popup").on("click", ".btn_today_close", function () {
 			// 로컬 스토리지에 today라는 이름으로 1일(24시간 뒤) 동안 보이지 않게
 			handleStorage.setStorage("today", 1);
-			$('#popup').hide();
+			close_popup();
 		});
 
 		// 일반 닫기 버튼
@@ -462,7 +483,7 @@
 		}
 
 		$(function() {
-			//$('#popup').show();
+			toggleMainPopup();
 		});
 
 	</script>

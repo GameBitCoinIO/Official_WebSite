@@ -97,9 +97,6 @@
 					<li style='margin-top : 14px;'><a href="<?php echo site_url('login?url=' . urlencode(current_full_url())); ?>" class="login">Login</a></li>
 					<li style="display:none;"><i class="fa fa-user"></i><a href="<?php echo site_url('register'); ?>" title="회원가입">회원가입</a></li>
 				<?php } ?>
-
-		<li style="display:none;"><a href="#0" class="search-overlay-menu-btn">Search</a></li>
-		<li class="hidden_tablet" style="display:none;" ><a href="#0" class="btn_1 rounded">Join Platform</a></li>
 	</ul>
 	<!-- /top_menu -->
 	<a href="#menu" class="btn_mobile">
