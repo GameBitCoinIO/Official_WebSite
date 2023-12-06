@@ -25,14 +25,15 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
-					<a class="box_feat h200" target="_blank" href="https://global.bittrex.com/trade/gbit-usdt">
-						<img src="/../assets/img/tokeninfo_bittrex.png" class="img-fluid" alt="">
-						<h3>Bittrex Global</h3>
+					<a class="box_feat h200" target="_blank" href="https://www.orangex.com/spot/GBIT-USDT-SPOT">
+						<img src="/../assets/img/orange_x.png" class="img-fluid" alt="">
+						<h3>OrangeX</h3>
 					</a>
+
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat h200" target="_blank" href="https://www.bitforex.com/en/spot/btc_usdt">
-						<img   style="margin-top : 10px;" src="/../assets/img/tokeninfo_bitforex.svg" class="img-fluid" alt="">
+						<img style="margin-top : 10px;" src="/../assets/img/bitforex.jpg" class="img-fluid" alt="">
 						<h3>Bitforex</h3>
 					</a>
 				</div>
