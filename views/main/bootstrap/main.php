@@ -343,20 +343,22 @@
 				
 						<label for="layer_popup" id="close" onclick="close_popup()">X</label>  
 					</h3>
-						<p> Hello, this is Game Bitcoin Foundation.</p>
-						<p>	We would like to inform you that GBIT Coin has been listed on the Orange X Exchange following the BitForex Exchange.</p>
+						<div onclick="close_popup()">
+							<p> Hello, this is Game Bitcoin Foundation.</p>
+							<p>	We would like to inform you that GBIT Coin has been listed on the Orange X Exchange following the BitForex Exchange.</p>
 
-						<p>	In order to minimize the damage to investors who have Solana-based GBIT coins due to Bitrex Global's sudden closure of the exchange, it has been decided to list Solana-based coins on the Orange X exchange.</p>
+							<p>	In order to minimize the damage to investors who have Solana-based GBIT coins due to Bitrex Global's sudden closure of the exchange, it has been decided to list Solana-based coins on the Orange X exchange.</p>
 
-						<p>	Orange X is a virtual asset exchange that can trade about 129 types of coins, and based on this, the daily trading volume is about KRW 1 trillion or more.</p>
+							<p>	Orange X is a virtual asset exchange that can trade about 129 types of coins, and based on this, the daily trading volume is about KRW 1 trillion or more.</p>
 
-						<p>	It provides high convenience to users because it has an intuitive, readable and accessible UI.</p>
+							<p>	It provides high convenience to users because it has an intuitive, readable and accessible UI.</p>
 
-						<p>	Those who received withdrawal from GBIT based coins can make transactions as in Bitrex through the Orange X Exchange. We will support Solana based GBIT coins by maintaining Multi Chain until the transaction of Solana based coins is minimized, and we will try not to make any artificial changes. We will continue to make more efforts to be listed on the Korean won exchange.</p>
+							<p>	Those who received withdrawal from GBIT based coins can make transactions as in Bitrex through the Orange X Exchange. We will support Solana based GBIT coins by maintaining Multi Chain until the transaction of Solana based coins is minimized, and we will try not to make any artificial changes. We will continue to make more efforts to be listed on the Korean won exchange.</p>
 
-						<p> Notice Shortcuts : <a target="_blank" href='https://twitter.com/OrangeXExchange/status/1730514186340622489' > Notice Shortcuts </a></p>
+							<p> Notice Shortcuts : <a target="_blank" href='https://twitter.com/OrangeXExchange/status/1730514186340622489' > Notice Shortcuts </a></p>
 
-						<p>	Thank you.</p>
+							<p>	Thank you.</p>
+						</div>
 					<button class="btn_today_close"><span> Do not Show Today</span></button>
 				</div>
 			</div>

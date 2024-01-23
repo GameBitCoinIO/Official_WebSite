@@ -231,6 +231,13 @@
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200" target="_blank" href="http://www.donginlaw.co.kr/en/">
+						<img src="/../assets/img/partners/top_logo.png" class="img-fluid" alt="">
+						<h3 style="margin-top:5px;">DongIn Law Firm</h3>
+						<p></p>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-6">
 					<a class="box_feat h200" target="_blank" href="https://www.orangex.com/spot/GBIT-USDT-SPOT">
 					<img src="/../assets/img/orange_x.png" class="img-fluid" alt="">
 						<h3>OrangeX</h3>
