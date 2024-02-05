@@ -339,32 +339,70 @@
 			
 			<div id="popup">
 				<div class="popup-container" >
-					<h3 class="title"> New Exchange Orange X Listing News
-				
+					<h3 class="title"> Bitforex 신규 상장과 관련하여 Gbit 투자자 님들께 드리는 말씀
 						<label for="layer_popup" id="close" onclick="close_popup()">X</label>  
 					</h3>
-						<div onclick="close_popup()">
-							<p> Hello, this is Game Bitcoin Foundation.</p>
-							<p>	We would like to inform you that GBIT Coin has been listed on the Orange X Exchange following the BitForex Exchange.</p>
+					<!--
+					<p>안녕하세요 게임비트코인 재단 대표 김형민 입니다</p>
 
-							<p>	In order to minimize the damage to investors who have Solana-based GBIT coins due to Bitrex Global's sudden closure of the exchange, it has been decided to list Solana-based coins on the Orange X exchange.</p>
+					<p>더운 여름도 이젠 서서히 물러가는 8월 말이 되었습니다. </p>
 
-							<p>	Orange X is a virtual asset exchange that can trade about 129 types of coins, and based on this, the daily trading volume is about KRW 1 trillion or more.</p>
+					<p>올 상반기에는 여러가지 많은 사건 사고가 있었지만, 저희는 굳건하게 게임 개발과 국내상장에 집중해 왔습니다.</p>
 
-							<p>	It provides high convenience to users because it has an intuitive, readable and accessible UI.</p>
+					<p>그러한 노력 덕분인지 저희는 많은 분들의 도움으로 게임비트코인 의 브랜드 이미지와 위상은 나날이 상승 하고 있습니다.</p>
 
-							<p>	Those who received withdrawal from GBIT based coins can make transactions as in Bitrex through the Orange X Exchange. We will support Solana based GBIT coins by maintaining Multi Chain until the transaction of Solana based coins is minimized, and we will try not to make any artificial changes. We will continue to make more efforts to be listed on the Korean won exchange.</p>
+					<p>물론, 호사다마 처럼 상승한 이미지 만큼이나 음해하려는 사람들이나 저희 이미지를 이용해서 자신들의 이익을 취하려는 사람들도 생겨났습니다.</p>
 
-							<p> Notice Shortcuts : <a target="_blank" href='https://twitter.com/OrangeXExchange/status/1730514186340622489' > Notice Shortcuts </a></p>
+					<p>그러나, 저희는 사업의 전 분야를 법무법인과 사전조율하여, 불법적인 요소를 멀리하고, 부족한 부분을 미리 미리 점검해서 보강 하고 있기 때문에</p>
 
-							<p>	Thank you.</p>
-						</div>
-					<button class="btn_today_close"><span> Do not Show Today</span></button>
+					<p>우려하실만한 일들은 일어나지 않고 있습니다. 또한 그러한 음해세력에는 신속하고 단호하게 대응하고 있습니다.</p>
+
+					<p>좋은 소식이 결실을 맺는 계절이 다가오는 만큼, 혹시나 모를 일에 더 더욱 신중에 신중을 기해서 불미스러운 일이 생기지 않도록 세심하게 살펴 보겠습니다.</p>
+
+					<p>하반기에는 투자자 여러분들이 기다리시는 좋은 소식을 가지고 찾아 뵙겠습니다.</p>
+
+					<p>댁내 모두 평안하시길 빕니다. </p>
+-->
+
+
+						<p>안녕하세요. 게임비트코인 LLC 의 대표 김형민 입니다. 
+						먼저 언제나 저희를 뜨겁게 지지해 주시는 투자자 분들께 감사의 인사 드립니다. 
+						저희 Gbit coin은 지난 10월30일 비트포렉스에 두번째 거래소 상장에 성공 했습니다.  
+						앞으로 플랫폼이 완성되고, 좋은 서비스가 많이 나오게 된다면, 더욱 발전 하는 모습을 보여드릴수 있을 것이라 자신 합니다. </p>
+
+
+						<p>관련하여 몇가지 당부의 말씀을 드리고자 합니다. </p>
+
+						<p>신규 거래소에 처음 상장이 되면, 시스템 적인 문제도 많이 발생하고, 시장교란 세력들도 자주 출몰 하게 되서, 프로젝트의 실질적인 성장과는 무관하게 
+						차트가 왜곡 되는 현상들이 자주 발생 합니다.   
+						그렇기 때문에, 신규 거래소에서 초기에 발생하는 다양한 차트상의 변화에 일희일비 하실 필요는 없다고 사려 됩니다. 
+						만약, 저희 프로젝트에게 근본적인 어떤 문제가 발생 했다면, 저희가 상장한 모든 거래소에서 같은 현상이 발생 하게 될것 입니다. 
+						저희는 Bittrex와 Bitforex에 상장되어 있고, Bitforex는 상장 된지 3일째 이며, 정식 거래가 시작 된지는 2틀, 만 48시간이 되지 않았습니다. 
+						이 신규 거래소에서는 앞으로도 다양한 여러가지 일이 발생 할 것 입니다. </p>
+
+
+						<p>이미 상장 첫날, Bitforex 거래소에서 한국 ip들과 충돌 하는 현상이 벌어져서, 실제 거래가 하루 늦춰지는 일도 있었고,  
+						거래 물량이 쌓이기도 전에 시장을 교란 하려는 움직임도 포착이 됐습니다. 하지만 이러한 일들은 "통과의례" 와 같은 일 입니다. 
+						한달이내 이러한 불안정성은 확실하게 잡혀 나갈 것 입니다. 
+						저희 코인이 상장 된 Bittrex Global 거래소와 Bitforex를 비교해 가시면서 시장을 주시 하신다면, 보다 객관적으로 시장상황을 이해하실수 있을 것입니다. </p>
+
+
+						<p>그러나, 무엇보다 시장가 차트 보다는 저희 프로젝트의 성장성에 주목해 주시기 바랍니다. 
+						저희가 현재보다 미래가치가 크게 평가 되는 이유는 저희는 블록체인 시장에서 가장 확실한 수익성을 가진 게임콘텐츠 비즈니스를 하고 있으며, 
+						자체적인 유저층을 가지고 있는 게임을 블록체인 게임으로 전환하려는 비즈니스 라는 점 입니다. 
+						과정에서 여러가지 굴곡이 있겠지만, 저희는 지금 보다 더 높게 더 많이 성장 할 것 입니다. </p>
+
+						<p>단기적으로 보다는 장기적으로 저희들을 지켜봐 주시길 부탁 드립니다. </p>
+
+						<p>감사합니다. </p>
+					<button class="btn_today_close"><span>오늘 하루 보지 않기</span></button>
 				</div>
 			</div>
 
 		</div>
 		<!-- /container -->
+
+	
 	
 	<!-- SPECIFIC SCRIPTS -->
 	<script src="/../assets/js/video_header.js"></script>
@@ -377,13 +415,6 @@
 		});
 		function close_popup() {
 			$('#popup').hide();
-			$('body').css("pointer-events","auto");
-		}
-
-		function show_popup() {
-			$('#popup').show();
-			$('body').css("pointer-events","none");
-			$('#popup').css("pointer-events","auto");
 		}
 
 		var toggleMainPopup = function() {
@@ -414,14 +445,14 @@
 		// 쿠키 읽고 화면 보이게
 		if (handleStorage.getStorage("today")) {
 		} else {
-			show_popup();
+			$('#popup').show();
 		}
 
 		// 오늘하루 보지 않기 버튼
 		$("#popup").on("click", ".btn_today_close", function () {
 			// 로컬 스토리지에 today라는 이름으로 1일(24시간 뒤) 동안 보이지 않게
 			handleStorage.setStorage("today", 1);
-			close_popup();
+			$('#popup').hide();
 		});
 
 		// 일반 닫기 버튼
@@ -431,7 +462,7 @@
 		}
 
 		$(function() {
-			toggleMainPopup();
+			//$('#popup').show();
 		});
 
 	</script>

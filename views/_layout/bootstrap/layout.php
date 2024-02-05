@@ -175,27 +175,27 @@
 <body>
 	
 	<div id="page">
-	<?php $page_title = html_escape(element('page_title', $layout)); ?>
-	<main>
-		<? if ($page_title !='main') { ?>
-		<section id="hero_in" class="general">
-			<div class="wrapper">
-				<div class="container">
-					<h1 class="fadeInUp"><span></span><?php echo $page_title ?> </h1>
+		<?php $page_title = html_escape(element('page_title', $layout)); ?>
+		<main>
+			<? if ($page_title !='main') { ?>
+			<section id="hero_in" class="general">
+				<div class="wrapper">
+					<div class="container">
+						<h1 class="fadeInUp"><span></span><?php echo $page_title ?> </h1>
+					</div>
 				</div>
+			</section>
+			<?php } ?>
+			<!--/hero_in-->
+			<div <? if ($page_title !='main') { echo 'class="container margin_default"'; } ?> >
+
+			<?php if (isset($yield))echo $yield; ?>
 			</div>
-		</section>
-		<?php } ?>
-		<!--/hero_in-->
-		<div <? if ($page_title !='main') { echo 'class="container margin_default"'; } ?> >
 
-		<?php if (isset($yield))echo $yield; ?>
-		</div>
-
-		</main>
-<!--/main-->
-	
-</div>
+			</main>
+	<!--/main-->
+		
+	</div>
 <!-- page -->
 
 <!-- COMMON SCRIPTS -->
@@ -281,7 +281,29 @@
 		</div>
 	</div>
 </footer>
+<script>
+    var ht = null;
+    (function(id, scriptSrc, callback) {
+        var d = document,
+            tagName = 'script',
+            $script = d.createElement(tagName),
+            $element = d.getElementsByTagName(tagName)[0];
 
+        $script.id = id;
+        $script.async = true;
+        $script.src = scriptSrc;
+
+        if (callback) { $script.addEventListener('load', function (e) { callback(null, e); }, false); }
+        $element.parentNode.insertBefore($script, $element);
+    })('happytalkSDK', 'https://chat-static.happytalkio.com/sdk/happytalk.chat.v2.min.js', function() {
+        ht = new Happytalk({
+          siteId: '3000000750',
+          siteName: '필링럭키',
+          categoryId: '175713',
+          divisionId: '175714'
+      });
+    });
+</script>
 </html>
 
 				
