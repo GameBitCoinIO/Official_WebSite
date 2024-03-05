@@ -251,5 +251,12 @@
 						<p></p>
 					</a>
 				</div>
+				<div class="col-lg-4 col-md-6">
+					<a class="box_feat h200 pt-3" target="_blank" href="https://www.cubechain.io/">
+						<img style="margin-top : 10px;" src="/../assets/img/partners/cubechain.jpg" class="img-fluid" alt="">
+						<h3>CUBE CHAIN</h3>
+						<p></p>
+					</a>
+				</div>
 		</div>
 		<!--/container-->
