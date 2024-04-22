@@ -38,10 +38,9 @@
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
-					<a class="box_feat h200" href="#">
-						<i class="pe-7s-science"></i>
-						<h3>Coming Soon</h3>
-						<p></p>
+					<a class="box_feat h200" target="_blank" href="https://www.toobit.com/en-US/spot/PWR_USDT">
+						<img style="margin-top : 10px;" src="/../assets/img/partners/toobit_images.png" class="img-fluid" alt="">
+						<h3>Toobit</h3>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
